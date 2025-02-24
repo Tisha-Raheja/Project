@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+.header {
+  display: flex;
+  font-size: 22px;
+ align-items: center;
+ justify-content: space-between; 
+ padding: 20px;
+ background-color: black;
+}
+
+.header .nav-bar a {
+text-decoration: none;
+font-size: 22px;
+cursor: pointer;
+color: #fff;
+display: flex;
+
+gap: 10em;
+
+}
+.header .nav-bar a {
+    text-decoration: dotted ;
+    filter: drop-shadow(0 0 20px orange);
+    border: 2px solid grey;
+    box-shadow:  5px 5px 10px (0, 0, 0 , 0.13);
+    border-radius: 30px;
+    box-shadow:  5px 5px 10px (0, 0, 0 , 0.13);
+    padding: 10px;
+
+}
+.nav-bar {
+    color:#fff;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+}
+.logo{
+    color:#fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+.logo {
+    
+    filter: drop-shadow(0 0 20px orange);
+    border: 2px solid grey;
+    box-shadow:  5px 5px 10px (0, 0, 0 , 0.13);
+    border-radius: 30px;
+    box-shadow:  5px 5px 10px (0, 0, 0 , 0.13);
+    padding: 10px;
+
+}
+.About-container {
+     width: 100%;
+     /* min-height: 100vh; */
+     align-items: center;
+     justify-content: space-between;
+     display: flex;
+     margin:40px 40px ;
+      padding: 20px ; 
+      line-height: 1.2;
+}
+.about h2{
+    font-size: 44px;
+}
+.about p {
+    font-size: 20px;
+}
+
+.btn-1 { 
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+  
+    gap: 20px;
+    filter: drop-shadow(0 0 20px rgba(255, 166, 0, 0));
+    border: 2px solid  grey;
+    box-shadow:  5px 5px 10px (0, 0, 0 , 0.13);
+    font-size: 22px;
+}
+.btn-2{
+padding: 10px;
+margin: 10px;
+border-radius: 30px;
+filter: drop-shadow(0 0 20px #ffa60000);
+    border: 2px solid  grey;
+    box-shadow:  5px 5px 10px (0, 0, 0 , 0.13);
+    font-size: 22px;
+}
+.contact {
+    padding: 10px;
+    text-decoration: none;
+    color:white;
+    border-radius: 30px;
+   filter: drop-shadow(0 0 20px orange);
+    border: 2px solid  grey;
+    box-shadow:  5px 5px 10px (0, 0, 0 , 0.13);
+    font-size: 22px;
+}
+.img-container {
+height: 400px;
+width:400px;
+
+
+margin-right: 40px;
+
+}
+.img-container img {
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+   
+    padding: 10px;
+    margin: 10px;
+}
